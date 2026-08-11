@@ -1,13 +1,13 @@
-# Programa Descubrí UNCUYO
+# KIT UNCUYO — versión estática
 
-Versión estática preparada para GitHub Pages.
+Sitio estático preparado para GitHub Pages.
 
 ## Publicación
 
-1. Subir `index.html` y `.nojekyll` a la raíz del repositorio.
-2. En GitHub, abrir **Settings → Pages**.
-3. En **Build and deployment**, seleccionar **Deploy from a branch**.
-4. Elegir la rama `main` y la carpeta `/ (root)`.
-5. Guardar y esperar la publicación.
+1. Subir todos los archivos y la carpeta `assets` a la raíz del repositorio.
+2. Abrir **Settings → Pages**.
+3. Seleccionar **Deploy from a branch**.
+4. Elegir `main` y `/ (root)`.
+5. Guardar.
 
-El sitio es autocontenido: las imágenes, estilos y scripts principales están incluidos dentro de `index.html`.
+No requiere instalación, compilación ni base de datos.
