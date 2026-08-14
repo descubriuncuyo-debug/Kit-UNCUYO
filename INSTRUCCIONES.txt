@@ -1,0 +1,17 @@
+KIT UNCUYO — PUBLICACIÓN EN GITHUB PAGES
+
+1. Creá un repositorio nuevo en GitHub, por ejemplo: kit-uncuyo.
+2. Subí TODOS los archivos y carpetas que están junto a este documento.
+   El archivo index.html debe quedar en la raíz del repositorio.
+3. Entrá en Settings > Pages.
+4. En Source seleccioná “Deploy from a branch”.
+5. Seleccioná la rama “main” y la carpeta “/ (root)”.
+6. Presioná Save.
+
+La publicación puede tardar algunos minutos. La dirección tendrá esta forma:
+https://TU-USUARIO.github.io/kit-uncuyo/
+
+IMPORTANTE
+- No cambies los nombres de las carpetas ni de los archivos.
+- Subí también la carpeta assets y los archivos SVG y PNG.
+- Esta versión ya utiliza rutas relativas compatibles con GitHub Pages.

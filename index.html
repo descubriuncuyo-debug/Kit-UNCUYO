@@ -1,100 +1,15 @@
 <!doctype html>
 <html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#475ae2">
-  <meta name="description" content="KIT UNCUYO: recorridos para conocer la vida universitaria, elegir una carrera y fortalecer estrategias de aprendizaje.">
-  <title>KIT UNCUYO</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header class="topbar">
-    <a href="#inicio" class="brand" aria-label="Ir al inicio"><img src="assets/descubri-uncuyo.svg" alt="Descubrí UNCUYO, tu puente a la Universidad"></a>
-    <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">Menú</button>
-    <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
-      <a href="#recorridos">Recorridos</a><a href="#vida">Vida universitaria</a><a href="#estrategias">Estrategias</a><a href="#orientacion">Orientación</a><a href="#pensamiento">Pensamiento lógico</a><a href="#final">Finalizar</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero" id="inicio">
-      <div class="path path-one" aria-hidden="true"></div>
-      <div class="hero-copy">
-        <p class="eyebrow">Te presentamos</p>
-        <h1>KIT <span>UNCUYO</span></h1>
-        <p class="hero-lead">Una cápsula interactiva para conocer la Universidad, explorar tus intereses y prepararte para esta nueva etapa.</p>
-        <div class="hero-actions"><a class="button primary" href="#recorridos">Empezar el recorrido</a><button class="button ghost listen" data-speak="Bienvenidos y bienvenidas al Kit UNCUYO. Una propuesta para acompañarte en tu camino hacia la Universidad.">▶ Escuchar bienvenida</button></div>
-      </div>
-      <aside class="hero-note"><strong>¿Cómo navegar?</strong><span>Elegí un recorrido. Podés volver al menú en cualquier momento y abrir cada tarjeta para ampliar la información.</span></aside>
-    </section>
-
-    <section class="section routes" id="recorridos">
-      <div class="section-heading"><p class="eyebrow">Elegí tu camino</p><h2>Cuatro recorridos para explorar</h2><p>No hay un orden obligatorio. Podés entrar, salir y volver cuando quieras.</p></div>
-      <div class="route-grid">
-        <a class="route-card cyan" href="#vida"><span class="route-number">01</span><h3>Vida universitaria</h3><p>Conocé la UNCUYO, sus carreras y los servicios para estudiantes.</p><span class="route-link">Comenzar →</span></a>
-        <a class="route-card yellow" href="#estrategias"><span class="route-number">02</span><h3>Estrategias de aprendizaje</h3><p>Revisá herramientas para aprender, organizarte y alcanzar tus metas.</p><span class="route-link">Comenzar →</span></a>
-        <a class="route-card violet" href="#orientacion"><span class="route-number">03</span><h3>Orientación vocacional</h3><p>Explorá intereses, opciones de estudio y decisiones posibles.</p><span class="route-link">Comenzar →</span></a>
-        <a class="route-card green" href="#pensamiento"><span class="route-number">04</span><h3>Pensamiento lógico computacional</h3><p>Descubrí formas de analizar problemas y construir soluciones.</p><span class="route-link">Comenzar →</span></a>
-      </div>
-    </section>
-
-    <section class="section route-section" id="vida">
-      <div class="route-head cyan-bg"><div><p class="eyebrow">Recorrido 01</p><h2>Vida universitaria</h2><p>En este camino conocerás nuestra Universidad, la oferta de carreras y los servicios que acompañan a su comunidad.</p></div><button class="listen round" data-speak="Vida universitaria. En este camino conocerás nuestra Universidad, sus carreras y los servicios que ofrece a toda la comunidad universitaria." aria-label="Escuchar introducción">▶</button></div>
-      <div class="content-grid">
-        <article class="feature wide"><span class="tag cyan-text">Bienvenida</span><h3>¿Qué es la UNCUYO?</h3><p>La Universidad Nacional de Cuyo es una universidad pública fundada el 21 de marzo de 1939. Cuenta con 12 facultades y 3 institutos, y ofrece carreras de pregrado, grado y posgrado.</p><details><summary>Conocer más</summary><p>Sus facultades tienen sede en Mendoza. Además, integran la Universidad el Instituto Balseiro, ubicado en Bariloche; el Instituto Tecnológico Universitario, con seis sedes; y el Instituto de Seguridad Pública.</p></details></article>
-        <article class="feature"><span class="tag cyan-text">Oferta académica</span><h3>¿Qué se estudia?</h3><p>Las carreras se organizan en cinco grandes familias.</p><ul><li>Ciencias de la Salud</li><li>Artísticas</li><li>Exactas, Naturales y Tecnológicas</li><li>Económicas, Jurídicas y de Seguridad</li><li>Sociales y Humanas</li></ul><a class="text-link" href="https://descubriuncuyo-debug.github.io/explorador-carreras-uncuyo/" target="_blank" rel="noopener">Abrir guía de carreras →</a></article>
-        <article class="feature"><span class="tag cyan-text">Acompañamiento</span><h3>Beneficios UNCUYO</h3><p>Una red de servicios acompaña el ingreso, la permanencia y el egreso.</p><div class="chips"><a href="https://www.uncuyo.edu.ar/ingreso/becas" target="_blank" rel="noopener">Becas</a><a href="https://www.uncuyo.edu.ar/ingreso/bibliotecas" target="_blank" rel="noopener">Bibliotecas</a><a href="https://www.uncuyo.edu.ar/ingreso/deportes" target="_blank" rel="noopener">Deportes</a><a href="https://www.uncuyo.edu.ar/ingreso/comedor" target="_blank" rel="noopener">Comedor</a><a href="https://www.uncuyo.edu.ar/ingreso/inclusion" target="_blank" rel="noopener">Inclusión</a></div></article>
-      </div>
-      <div class="service-grid">
-        <article><b>Becas</b><p>Programas para facilitar el ingreso y acompañar las trayectorias, promoviendo igualdad de oportunidades.</p></article><article><b>Bibliotecas integradas</b><p>El SID reúne libros impresos y digitales, bases de datos, reservas y préstamos mediante el Carnet Único.</p></article><article><b>Salud estudiantil</b><p>Atención médica primaria gratuita y acciones grupales de promoción y prevención para estudiantes sin cobertura.</p></article><article><b>Deportes y recreación</b><p>Actividades deportivas, liga universitaria, torneos y espacios naturales para el bienestar integral.</p></article><article><b>Comedor universitario</b><p>Almuerzos económicos y saludables, con opciones vegetarianas y celíacas en distintas sedes.</p></article><article><b>Defensoría estudiantil</b><p>Defensa, protección y promoción de derechos ante dificultades administrativas, académicas o de convivencia.</p></article><article><b>Consejería de Género</b><p>Acompañamiento integral en situaciones de violencia patriarcal, sexualidades e identidades de género.</p></article><article><b>Inclusión</b><p>Referentes en facultades e institutos acompañan a estudiantes con discapacidad durante su vida universitaria.</p></article>
-      </div>
-      <a class="back-route" href="#recorridos">← Volver a los recorridos</a>
-    </section>
-
-    <section class="section route-section" id="estrategias">
-      <div class="route-head yellow-bg"><div><p class="eyebrow">Recorrido 02</p><h2>Estrategias de aprendizaje</h2><p>Herramientas para impulsar tu aprendizaje y alcanzar metas académicas.</p></div><button class="listen round dark" data-speak="Estrategias de aprendizaje. En este espacio encontrarás herramientas para impulsar tu aprendizaje y alcanzar tus metas académicas." aria-label="Escuchar introducción">▶</button></div>
-      <div class="content-grid">
-        <article class="feature"><span class="tag">¿Cómo aprendemos?</span><h3>Aprender es un proceso activo</h3><p>Implica relacionar lo nuevo con lo que ya sabemos, organizar la información, practicar, revisar y comunicar lo aprendido.</p></article>
-        <article class="feature"><span class="tag">Estrategias clave</span><h3>Cinco formas de trabajar</h3><ol><li>Análisis y elaboración</li><li>Fijación y retención</li><li>Sistematización y representación</li><li>Expresión</li><li>Reelaboración</li></ol></article>
-        <article class="feature wide"><span class="tag">Alcanzá tus metas</span><h3>Las cuatro A del aprendizaje</h3><div class="four-a"><div><b>Autoconocimiento</b><p>Reconocé intereses, valores, fortalezas y aspectos a mejorar.</p></div><div><b>Autorregulación</b><p>Organizá rutinas, tiempos y emociones que intervienen al estudiar.</p></div><div><b>Automotivación</b><p>Definí metas personales y confiá en tus capacidades.</p></div><div><b>Autoevaluación</b><p>Monitoreá tu progreso y ajustá tus estrategias con honestidad.</p></div></div></article>
-      </div>
-      <div class="reflection"><h3>Una pausa para pensar</h3><p>¿Qué estrategia ya utilizás? ¿Cuál podrías probar durante la próxima semana?</p><textarea aria-label="Escribí tu reflexión" placeholder="Escribí tus ideas aquí..."></textarea><small>Este texto queda solamente en tu dispositivo.</small></div>
-      <a class="back-route" href="#recorridos">← Volver a los recorridos</a>
-    </section>
-
-    <section class="section route-section" id="orientacion">
-      <div class="route-head violet-bg"><div><p class="eyebrow">Recorrido 03</p><h2>Orientación vocacional</h2><p>La vocación no viene dada: se construye mientras te conocés, buscás información y tomás decisiones.</p></div><button class="listen round" data-speak="Orientación vocacional. La vocación no es un destino escrito. Se construye a lo largo del tiempo a partir del autoconocimiento, la información y las decisiones." aria-label="Escuchar introducción">▶</button></div>
-      <div class="axis-grid">
-        <article><span>1</span><h3>Autoconocimiento</h3><p>Explorá intereses, habilidades, actividades preferidas y temas de la realidad que te importan.</p></article><article><span>2</span><h3>Familias de carreras</h3><p>Conocé las áreas de estudio, materias, duración, modalidad, prácticas y posibilidades laborales.</p></article><article><span>3</span><h3>Búsqueda de información</h3><p>Consultá requisitos de ingreso, planes de estudio, títulos, especialidades y fuentes confiables.</p></article><article><span>4</span><h3>Entrevistas</h3><p>Conversá con estudiantes y profesionales. Prepará preguntas y registrá lo que descubras.</p></article><article><span>5</span><h3>Tomar una decisión</h3><p>Compará opciones y reflexioná sobre cómo te imaginás estudiando y trabajando en el futuro.</p></article>
-      </div>
-      <div class="question-panel"><h3>¿Quién soy? ¿Quién quiero llegar a ser?</h3><ul><li>¿Qué actividades disfruto hacer en mi tiempo libre?</li><li>¿En qué materias o temas suelo destacarme?</li><li>¿Cuáles son mis habilidades y talentos?</li><li>¿Qué actividades me generan mayor satisfacción?</li><li>¿Qué temas de la realidad me interesan más?</li></ul></div>
-      <div class="ove-card"><div><p class="eyebrow">Departamento de Orientación Vocacional y Educativa</p><h3>No tenés que decidir en soledad</h3><p>El equipo de Psicología y Psicopedagogía acompaña procesos de elección y reelección vocacional, facilita información sobre carreras, terciarios y oficios, y ofrece talleres grupales y apoyo a familias.</p></div><div class="ove-contact"><b>Contacto</b><a href="mailto:orientacion.vocacional@uncuyo.edu.ar">orientacion.vocacional@uncuyo.edu.ar</a><span>261 7059432</span><span>Lunes a viernes, 8.30 a 14 h</span><span>Anexo Rectorado · 1.º piso · oficina 4</span></div></div>
-      <a class="back-route" href="#recorridos">← Volver a los recorridos</a>
-    </section>
-
-    <section class="section route-section" id="pensamiento">
-      <div class="route-head green-bg"><div><p class="eyebrow">Recorrido 04</p><h2>Pensamiento lógico computacional</h2><p>Dos herramientas para comprender problemas, reconocer patrones y construir soluciones.</p></div><button class="listen round dark" data-speak="Pensamiento lógico computacional. Vas a descubrir herramientas para comprender problemas, reconocer patrones y construir soluciones paso a paso." aria-label="Escuchar introducción">▶</button></div>
-      <div class="thinking-path"><article><span>01</span><h3>Nuestros sentidos</h3><p>Son antenas que nos conectan con el mundo y nos ayudan a comprender lo que sucede alrededor.</p></article><article><span>02</span><h3>Nuestra mente</h3><p>Recibe información, selecciona lo importante y lo conecta con recuerdos, lenguaje, emociones y conocimientos.</p></article><article><span>03</span><h3>El pensamiento</h3><p>Incluye ideas, reflexiones, preocupaciones, planes y sueños: una conversación interna permanente.</p></article><article><span>04</span><h3>Pensamiento lógico</h3><p>Permite conectar datos, seguir reglas, distinguir lo verdadero de lo falso y resolver problemas con claridad.</p></article><article><span>05</span><h3>Pensamiento computacional</h3><p>Descompone problemas, identifica patrones, abstrae información irrelevante y crea algoritmos para resolverlos.</p></article></div>
-      <div class="challenge"><div><p class="eyebrow">Ponete a prueba</p><h3>Salas de escape</h3><p>Probá tus habilidades con las experiencias originales de pensamiento lógico y computacional.</p></div><a class="button primary" href="https://view.genially.com/67d1a8d7d7f4c2a24ae8242e/interactive-content-2025-kit-uncuyo-presentacion" target="_blank" rel="noopener">Abrir desafíos</a></div>
-      <a class="back-route" href="#recorridos">← Volver a los recorridos</a>
-    </section>
-
-    <section class="finish" id="final">
-      <div><p class="eyebrow">Llegamos al final del camino</p><h2>¿Cómo fue tu experiencia?</h2><p>Te invitamos a completar la encuesta original del KIT UNCUYO.</p><a class="button yellow-button" href="https://view.genially.com/67d1a8d7d7f4c2a24ae8242e/interactive-content-2025-kit-uncuyo-presentacion" target="_blank" rel="noopener">Acceso a encuesta</a></div>
-      <details class="credits"><summary>Ver créditos del KIT</summary><div class="credit-grid">
-        <section><h3>Coordinación General</h3><p>Prof. Valeria Martín Tello<br>Abog. Cecilia Moyano Pregal</p><h3>Procesadora Didáctica</h3><p>Prof. Laura Sukerman</p><h3>Educación a Distancia</h3><p>Prof. Lic. Mariela Meljin<br>José Di María<br>María Florencia Masino<br>Melisa Grippi<br>Rosina Pierobon<br>Yamila Weber</p><h3>Área Creativa</h3><p>Elena Visciglio<br>Pamela Peterle<br>Silvina Barbanente</p></section>
-        <section><h3>Contenidistas · Vida Universitaria</h3><p>Lic. Luciana Fernandez<br>Lic. Alejandrina Alba<br>Lic. Carolina Ríos</p><h3>Estrategias de Aprendizaje</h3><p>Psicop. Mónica Vicchi<br>Lic. Lucía Osorio<br>Prof. Valeria Martín Tello</p><h3>Orientación Vocacional</h3><p>Psicop. Mónica Vicchi<br>Lic. Celeste Elías<br>Lic. Laura Doña</p><h3>Pensamiento lógico computacional</h3><p>Lic. Paula Pasalacqua<br>Tec. Miriam Blanco<br>Tec. Alfio Canal</p></section>
-        <section class="web-credit"><h3>Versión web</h3><p><b>Coordinación y adaptación de contenidos</b><br>Lic. Esperanza Bernabé</p><p><b>Adaptación y desarrollo del sitio web</b><br>Tec. Esteban Fernández</p><p class="ai-note">Se utilizó ChatGPT Plus (OpenAI, 2026) como herramienta de asistencia. El contenido y las decisiones finales fueron revisados por el equipo responsable.</p></section>
-      </div></details>
-    </section>
-  </main>
-
-  <footer><a href="#inicio"><img src="assets/uncuyo.svg" alt="Universidad Nacional de Cuyo"></a></footer>
-  <button class="to-top" type="button" aria-label="Volver arriba">↑</button>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Recursos para conocer la Universidad y acompañar el ingreso a la UNCUYO." />
+    <link rel="icon" href="./favicon.svg" />
+    <title>KIT UNCUYO</title>
+    <script type="module" crossorigin src="./assets/index-BsHzIdmk.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CByzybfs.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
